@@ -2,15 +2,14 @@
 * {
   margin: 0;
   padding: 0;
-}
-
-body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .container {
   width: 80%;
   margin: auto;
+  /* background-color: #111; */
+  text-align: center;
 }
 
 .btn-orange{
@@ -109,6 +108,7 @@ body {
 
 .box{
   text-align: center;
+  margin: 30px;
 }
 
 .box-item{
@@ -126,3 +126,80 @@ body {
 }
 
 /* Fim Missão Visão Valores */
+
+/* inicio sobre */
+
+.box-assunto-p, .box-assunto-g {
+  background-color: rgb(228, 228, 228);
+  width: 30%;
+  display: inline-block;
+  margin: 20px;
+  padding: 20px;
+  border-bottom: solid orangered 3px;
+  border-radius: 10px;
+}
+
+.titulo-assunto {
+  margin-bottom: 10px;
+}
+
+.texto-assunto {
+  text-align: justify;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+/* fim sobre */
+
+/* inicio nossa equipe */
+.box-nosso-time {
+  background-color: #232323;
+  color: white;
+  width: 100%;
+  height: 300px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.box-integrante {
+  /* background-color: red; */
+  width: 200px;
+  height: 270px;
+  padding: 10px;
+  text-align: center;
+  display: inline-block;
+}
+.img-integrante {
+  width: 100px;
+  height: 100px;
+  background-color: orangered;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+
+.nome-integrante {
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 18px;
+  display: block;
+}
+/* fim nossa equipe */
+
+/* inicio assunto g */
+.box-assunto-g {
+  width: 65%;
+}
+/* fim assunto g */
+
+/* inicio footer */
+.footer {
+  background-color: orangered;
+  text-align: center;
+  width: 100%;
+  height: 50px;
+  padding-top: 30px;
+}
+/* fim footer */
