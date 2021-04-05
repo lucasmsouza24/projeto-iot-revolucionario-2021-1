@@ -5,6 +5,11 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+body {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .container {
   width: 80%;
   margin: auto;
@@ -186,6 +191,9 @@
   font-size: 18px;
   display: block;
 }
+.desc-integrante {
+  text-align: justify;
+}
 /* fim nossa equipe */
 
 /* inicio assunto g */
@@ -203,3 +211,40 @@
   padding-top: 30px;
 }
 /* fim footer */
+
+/* inicio form */
+.form-login {
+  background-color: rgba(228, 222, 222, 0.74);
+  width: 40%;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 5px;
+  padding: 30px 10px;
+}
+.form-login label, .form-login input {
+  /* background-color: yellow; */
+  display: block;
+  width: 90%;
+  margin-left: 5%;
+}
+.form-login input {
+  margin-bottom: 25px;
+  height: 35px;
+  border-radius: 5px;
+  border: solid #b5b5b5 1px;
+}
+.form-login h1 {
+  text-align: center;
+}
+.form-login button {
+  width: 20%;
+  margin-left: 40%;
+  margin-bottom: 10px;
+  background-color: rgb(55, 189, 55);
+  border: none;
+  padding: 5px;
+  color: white;
+  font-weight: bold;
+  height: 35px;
+}
+/* fimform */
